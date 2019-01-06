@@ -44,7 +44,7 @@ func doSomething(f *os.File) {
 
 
 
-	fmt.Printf("\nBody: %v", resp.String())
+	//fmt.Printf("\nBody: %v", resp.String())
 	fmt.Fprintf(f, resp.String())
 
 
